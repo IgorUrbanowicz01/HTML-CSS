@@ -1,0 +1,19 @@
+
+.box {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+
+    background-color: black;
+        transform: ;
+
+}
+
+
+main{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex
+}

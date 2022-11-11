@@ -1,0 +1,18 @@
+$heder1: 2.5rem;
+$heder2: 4rem;
+$heder3: 2.5rem;
+$heder4: 2rem;
+$text: 2.5rem;
+$griedient: linear-gradient(left, #38d39f, #38a4d3);
+$background-color: #154353;
+$grey-text:#2c2c2c;
+
+@mixin flex($justify, $align, $diretion) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $diretion;
+}
+
+@import "global";
+@import "intro";

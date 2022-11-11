@@ -1,0 +1,48 @@
+
+/*Global Formating*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/*Boxes*/
+.boxes{
+    border:  1rem solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "box1 . box2"
+    "box3 box5 box4";
+}
+.box{
+    padding: 5rem;
+}
+.box1{
+    background: coral;
+    grid-area: box1;
+}
+.box2{
+    background: rgb(170, 91, 34);
+    grid-area: box2;
+
+}
+.box3{
+    background: rgb(150, 170, 34);
+    grid-area: box3;
+}
+.box4{
+    background: rgb(170, 34, 98);
+    grid-area: box4;
+
+}
+.box5{
+    background: rgb(48, 34, 170);
+    grid-area: box5;
+
+}

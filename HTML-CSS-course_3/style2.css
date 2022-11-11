@@ -1,0 +1,41 @@
+h1 {
+    color: coral ;
+    margin: 50px;
+    background-color: red;
+}
+
+#head {
+    color: blue;
+}
+
+.header {
+    color: green;
+}
+
+h1.header {
+    color: deeppink;
+}
+
+button {
+    margin: 100px;
+    padding: 50px 20px 10px 0px;
+    background-color: gray;
+}
+#box {
+    color: azure;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border:20px solid black;
+}

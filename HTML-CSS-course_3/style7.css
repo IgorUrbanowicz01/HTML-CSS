@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+div {
+    background: cadetblue;
+    min-height: 40vh;
+    width: 50%;
+    font-size: 3rem;
+}
+
+div h1 {
+    background-color: aqua;
+    width: 100vw;
+}
+
+@media (min-width: 500px) and (max-width: 1000px){
+    body{
+        background: lightcoral;
+    }
+    div{
+        font-size: calc(1rem + 1vw);
+    }
+    html{
+        font-size: 50%;
+    }
+}

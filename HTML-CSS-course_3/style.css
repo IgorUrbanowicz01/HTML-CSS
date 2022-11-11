@@ -1,0 +1,25 @@
+.first-title {
+    color: red;
+}
+h3{
+    color: rgb(243, 22, 225);
+    
+}
+#youtube {
+    color: brown;
+}
+
+.random {
+    color: crimson;
+}
+
+* {
+    font-size: larg;
+}
+.list li {
+    color: blueviolet;
+}
+
+.links li:nth-child(4){
+    color: red;
+}

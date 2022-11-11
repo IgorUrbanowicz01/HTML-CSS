@@ -1,0 +1,10 @@
+.intro {
+    h2{
+        font-size: $big-font;
+    }
+    button{
+        &:hover{
+            background: $primary;
+        }
+    }
+}
