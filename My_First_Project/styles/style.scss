@@ -1,9 +1,8 @@
-$heder1: 2.5rem;
+$heder1: 4rem;
 $heder2: 4rem;
 $heder3: 2.5rem;
 $heder4: 2rem;
-$text: 2.5rem;
-$grey-text:#2c2c2c;
+$text: 1.8rem;
 
 @mixin flex($justify, $align, $diretion) {
     display: flex;
@@ -13,4 +12,4 @@ $grey-text:#2c2c2c;
 }
 
 @import "global";
-@import "intro";
+@import "mainPage";

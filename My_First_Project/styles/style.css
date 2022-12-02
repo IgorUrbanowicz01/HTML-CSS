@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+li, button, label, input, p, a {
+  font-size: 1.8rem;
+}
+
+p {
+  color: grey;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h4, h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1C1B24;
+}
+
+.main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-head nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 10vh;
+  width: 60%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-head nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.main-head img {
+  width: 2rem;
+  height: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  position: relative;
+}
+
+.main-head #logo {
+  padding: 6rem 0rem;
+  width: 60%;
+  text-align: center;
+}
+
+.main-head button {
+  padding: 1.5rem 3.5rem;
+  color: white;
+  background: #0641af;
+  border-radius: 1rem;
+  border: none;
+  letter-spacing: 0.2rem;
+  margin: 0rem 0rem 3rem 0rem;
+  cursor: pointer;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+.main-head button:hover {
+  background-color: #00446b;
+}
+
+.main-offers {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-offers .offer {
+  margin: 4vh 8rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25vw;
+          flex: 1 1 25vw;
+  max-width: 20vw;
+}
+
+.main-offers .offer .offer-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 0rem;
+}
+
+.main-offers .offer .offer-head img {
+  width: 2rem;
+  min-width: 4rem;
+  height: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 8rem;
+          flex: 0 0 8rem;
+}
+
+.main-pricing {
+  width: 80%;
+  margin: auto;
+}
+
+.main-pricing h2 {
+  padding: 3rem 0rem;
+}
+
+.main-pricing .price-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 4rem 0rem;
+  width: 60vw;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-pricing .price-wrapper .price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20vw;
+          flex: 1 1 20vw;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.main-pricing .price-wrapper .price h3 {
+  font-size: 4rem;
+  padding: 2rem 0rem;
+}
+
+.main-pricing .price-wrapper .price p {
+  padding-bottom: 4rem;
+}
+
+.main-pricing .price-wrapper .price button {
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  border: 0.3rem solid #0641af;
+  background: white;
+  color: #0641af;
+  cursor: pointer;
+  -webkit-transition: color 0.5s ease-in-out, background 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out, background 0.5s ease-in-out;
+}
+
+.main-pricing .price-wrapper .price:hover {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-pricing .price-wrapper .price:hover button {
+  background-color: #0641af;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
