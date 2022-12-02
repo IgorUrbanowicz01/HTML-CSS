@@ -249,4 +249,81 @@ a {
   background-color: #0641af;
   color: white;
 }
+
+.main-team {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.main-team h3 {
+  font-size: 4rem;
+  padding-bottom: 6rem;
+}
+
+.main-team .team-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-team .team-wrapper .member {
+  -ms-flex-preferred-size: 40rem;
+      flex-basis: 40rem;
+  padding: 2rem 1rem;
+}
+
+.main-team .team-wrapper .member img {
+  width: 100%;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-team .team-wrapper .member h4 {
+  padding: 1rem 0rem;
+}
+
+.main-team .team-wrapper .member p {
+  letter-spacing: 0.3rem;
+  color: black;
+}
+
+.main-footer {
+  width: 75%;
+  margin: auto;
+}
+
+.main-footer h4 {
+  padding-bottom: 2rem;
+}
+
+.main-footer .fotter-wrap {
+  padding: 2rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
 /*# sourceMappingURL=style.css.map */
