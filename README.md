@@ -11,10 +11,6 @@ The repository is organized as follows:
 - `images/`: A folder containing all image files used in the project.<br />
 Some of the follders can differ depending on how old thier are.  
 
-## Design Gallery
-
-Check out the [Design Gallery](https://github.com/<username>/css-html-playground/tree/main/design-gallery) folder to see some of the designs I have created.
-
 ## Contributing
 
 Feel free to contribute to this project by submitting a pull request. For major changes, please open an issue first to discuss what you would like to change.
