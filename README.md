@@ -8,7 +8,7 @@ The repository is organized as follows:
 
 - `index.html`: The main HTML file for the project.
 - `styles/`: A folder containing all CSS files for the project.
-- `images/`: A folder containing all image files used in the project.
+- `images/`: A folder containing all image files used in the project.<br />
 Some of the follders can differ depending on how old thier are.  
 
 ## Design Gallery
